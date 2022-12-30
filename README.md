@@ -23,7 +23,7 @@ The terraform description will create 2 simple VNGs (OD + Spot) with
   - `image_id`: AMI id of the EKS node image (ARM), let it to null to let the module `aws_ami` find it itself.
 
 ## Steps
-
+- use AWS profile : `export AWS_PROFILE={your_profile}`
 - init terraform : `terraform init`
 - apply the creation : `terraform apply`
 
